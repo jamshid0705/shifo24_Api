@@ -15,7 +15,7 @@ const DB = process.env.DATABASE.replace('<PASSWORD>', process.env.DATABASE_PASSW
 mongoose
   .connect(DB, {})
   .then(() => {
-    console.log('Databasega muvaffaqiyatli ulandi!');
+    console.log('DB connected successfully!');
   })
   // .catch((err) => {
   //   console.log('Databasega bog\'lanishda xatolik!',err);
