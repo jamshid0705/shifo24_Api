@@ -1,4 +1,4 @@
-const AppError = require("../utility/appError")
+const AppError = require('../utility/appError')
 
 const handlerDublicateFields=(error)=>{
   const message='Dublicate fields value: Please use anther value !'
